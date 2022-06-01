@@ -182,9 +182,11 @@
 
 .restaurants-cards {
   background-color: white;
+  margin-left: 5px;
+  margin-right: 5px;
   margin-top: 2em;
   min-width: 18em;
-  width: 85%;
+  width: 100%;
   @include drop-shadow;
   @include all-corners-round;
 
