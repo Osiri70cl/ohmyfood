@@ -103,6 +103,9 @@ html {
 
   & .restaurants-cards__heart {
     margin-right: 0;
+    &:hover {
+      overflow: hidden;
+    }
   }
 }
 
