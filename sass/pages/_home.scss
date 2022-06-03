@@ -11,13 +11,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: loading-mask 2s forwards ease-out;
 }
 
 .loading-spinner {
-  animation: loading-spinner 2s forwards;
+  position: absolute;
   font-size: 10em;
   color: $color-tertiary;
+}
+.fa-spinner {
+  animation: rotate 3s ease-out 0.1s;
 }
 
 .main-home {
