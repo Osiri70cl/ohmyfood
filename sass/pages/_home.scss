@@ -260,24 +260,36 @@
 .restaurants-cards__heart > .fa-solid {
   opacity: 0;
   cursor: pointer;
-
   &:hover {
-    color: transparent;
-
-    background-image: linear-gradient($color-primary 15%, $color-secondary);
-    animation: fill-heart 0.3s;
-    background-clip: text;
-    animation-fill-mode: forwards;
+    animation: fill 0.4s ease-in-out;
+    display: inline-block;
+    opacity: 1;
+    background: linear-gradient(
+      to left,
+      #9356dc,
+      #b35cdc,
+      #cf64dc,
+      #e86edb,
+      #ff79da
+    );
+    background: -webkit-linear-gradient(
+      to left,
+      #9356dc,
+      #b35cdc,
+      #cf64dc,
+      #e86edb,
+      #ff79da
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
   }
 
   &:active {
     color: transparent;
-
     background-image: linear-gradient($color-primary 15%, $color-secondary);
     animation: fill-heart 0.3s;
     background-clip: text;
     animation-fill-mode: forwards;
   }
 }
-
-/* #endregion Restaurant list */

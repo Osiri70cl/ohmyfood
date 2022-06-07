@@ -1,4 +1,2 @@
-=> Modification de l'animation du coeur (il doit se remplir donc un transforme scale ou transform position sur axe Y (sans oublier l'overflow hidden) ?)
-=> Loading spinner à mettre en place. Au lancement du site, mettre sa div en height et div 100% de la page; puis après 3 secondes, mettre sa height 0% pour le faire disparaitre.
 => Responsive tablette / desktop, pour les menus; mettre en flex row plutot que flex collumn pour les entree, repas, desserts.
 => Clean le code !
