@@ -1,2 +1,0 @@
-=> Responsive tablette / desktop, pour les menus; mettre en flex row plutot que flex collumn pour les entree, repas, desserts.
-=> Clean le code !
